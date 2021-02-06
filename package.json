@@ -1,0 +1,39 @@
+{
+  "name": "@nativescript/template-hello-world-ts",
+  "main": "app.js",
+  "version": "7.0.6",
+  "author": "NativeScript Team <oss@nativescript.org>",
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nativescript",
+    "mobile",
+    "{N}",
+    "template"
+  ],
+  "repository": "<fill-your-repository-here>",
+  "bugs": {
+    "url": "https://github.com/NativeScript/NativeScript/issues"
+  },
+  "homepage": "https://github.com/NativeScript/nativescript-app-templates",
+  "dependencies": {
+    "@nativescript/core": "~7.1.0",
+    "@nativescript/theme": "~2.3.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "7.0.1",
+    "@nativescript/ios": "7.1.1",
+    "@nativescript/types": "~7.0.0",
+    "@nativescript/webpack": "~4.0.0",
+    "typescript": "~3.9.0"
+  },
+  "private": "true",
+  "readme": "NativeScript Application",
+  "scripts": {
+    "Nexus5": "$ANDROID_HOME/tools/emulator -netdelay none -netspeed full -avd Nexus_5_API_25",
+    "iPhone6": "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceID 8528838E-4B47-4F0E-B415-E87F8C8A6163"
+  }
+}
